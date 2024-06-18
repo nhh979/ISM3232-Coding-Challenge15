@@ -20,6 +20,7 @@ export default function App() {
   return (
     <div>
       <PersonalInfomation />
+      <Education />
       <Skills skills={skillList}/>
       <Experience exps={expList}/>
     </div>
