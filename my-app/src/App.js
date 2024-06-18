@@ -11,11 +11,17 @@ const skillList = [
   {id:4, name: "React", level: "Beginner"},
 ]
 
+const expList = [
+  {jobTitle:'Data Analyst', company:'ABC', duration:'6 months'},
+  {jobTitle:'Data Engineer', company:'XYZ', duration:'4 months'},
+]
+
 export default function App() {
   return (
     <div>
       <PersonalInfomation />
       <Skills skills={skillList}/>
+      <Experience exps={expList}/>
     </div>
   )
 }
