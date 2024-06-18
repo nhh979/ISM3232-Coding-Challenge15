@@ -1,3 +1,6 @@
+//Hoang Nguyen
+//U12840485
+
 import PersonalInfomation from "./PersonalInformation";
 import Skills from "./Skills";
 import Experience from "./Experience";
