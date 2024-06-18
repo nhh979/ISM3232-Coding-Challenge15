@@ -1,0 +1,39 @@
+
+.name {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 50px;
+  color: rgba(156, 0, 55, 0.76);
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+.name:hover{
+  color: orange
+}
+
+.title {
+  font-family: cursive;
+  font-size: 30px;
+  color: darkslategrey;
+  text-align: center;
+ }
+
+.title:hover{
+  color:yellowgreen
+}
+
+.biography {
+  font-family: cursive;
+  font-size: 15px;
+  color: lightslategray;
+}
+
+.biography:hover{
+  font-size: 16px; /* Initial font size */
+  transition: font-size 0.2s ease; /* Smooth transition for the font-size change */
+}
+
+.contactInfo{
+  font-family: cursive;
+  font-size: 15px;
+}
