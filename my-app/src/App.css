@@ -1,10 +1,12 @@
+body {
+  background-color: rgb(220, 220, 220);
+}
 
 .name {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 50px;
   color: rgba(156, 0, 55, 0.76);
   text-align: center;
-  /* margin-bottom: 20px; */
 }
 
 .name:hover{
@@ -24,16 +26,42 @@
 
 .biography {
   font-family: cursive;
-  font-size: 15px;
-  color: lightslategray;
+  font-size: 17px;
+  color: rgb(75, 85, 94);
 }
 
 .biography:hover{
-  font-size: 16px; /* Initial font size */
+  font-size: 18px; /* Initial font size */
   transition: font-size 0.2s ease; /* Smooth transition for the font-size change */
 }
 
 .contactInfo{
   font-family: cursive;
   font-size: 15px;
+}
+
+.header {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.skills li {
+  font-family: cursive;
+  font-size: 16px;
+}
+
+.experience p {
+  font-family: cursive;
+  font-size: 16px;
+}
+
+.school{
+  font-family: cursive;
+  font-size: 16px;
+  font-weight: bold;
+}
+.program{
+  font-family: cursive;
+  font-size: 12px;
+  font-style: italic;
 }
