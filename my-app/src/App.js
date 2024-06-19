@@ -1,7 +1,6 @@
-import PersonalInfomation from "./PersonalInformation";
-import Skills from "./Skills";
-import Experience from "./Experience";
-import Education from "./Education";
+//Hoang Nguyen
+//U12840485
+
 import "./App.css"
 
 // Create a list of skills
